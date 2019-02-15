@@ -46,7 +46,7 @@ $header-border: #29487d;
       grid-column-gap: 1em;
       padding-top: 4em;
       
-      @if $sidebar-alignment == "left" {
+      @if $sidebar-alignment == "right" {
         grid-template-columns: 2fr 505px 3.5fr; // 12 column grid
         grid-template-areas: 
         "alerts alerts alerts"
