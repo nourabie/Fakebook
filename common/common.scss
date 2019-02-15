@@ -98,7 +98,7 @@ $header-border: #29487d;
     }
     
     .list-container { 
-      min-width: 40%; // Don't let the topic list get too narrow
+      min-width: 70%; // Don't let the topic list get too narrow
       .topic-list,
       .category-list, { 
         th {
@@ -329,7 +329,7 @@ body {
 }
 
 #list-area .show-more.has-topics .alert {
-  width: 457px;
+  width: 910px;
 }
 
 // Header 
